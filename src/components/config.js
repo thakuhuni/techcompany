@@ -1,5 +1,5 @@
 const CLIENT_ID = process.env.CLIENT_ID || '0oa5rlybmyccB51Jd5d7';
-const ISSUER = process.env.ISSUER || 'https://dev-4216231.okta.com/oauth2/default';
+const ISSUER = process.env.ISSUER || 'https://dev-4216231.okta.com/oauth2/aus5stnhbfmUET6TL5d7';
 const OKTA_TESTING_DISABLEHTTPSCHECK = process.env.OKTA_TESTING_DISABLEHTTPSCHECK || false;
 const REDIRECT_URI = `${window.location.origin}/login/callback`;
 

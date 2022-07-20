@@ -3,7 +3,7 @@ import {DrawerAppBar} from './components/Props';
 import {BrowserRouter as Router, Route, Switch, useHistory} from 'react-router-dom';
 import {Features} from './components/Features';
 import {Pricing} from './components/Pricing';
-import {Login} from './components/Login';
+import Login from './components/Login';
 import Profile from './components/Profile';
 
 import Home from './components/Home';

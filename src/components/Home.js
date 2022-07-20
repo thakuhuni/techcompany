@@ -9,7 +9,7 @@ export default withOktaAuth(class Home extends Component {
     this.logout = this.logout.bind(this);
   }
 
-  async login() {
+   async login() {
     await this.props.oktaAuth.signInWithRedirect();
   }
 
@@ -38,12 +38,7 @@ export default withOktaAuth(class Home extends Component {
       <div className="App">
         <header className="App-header">
        
-          <p>
-            Edit <code>src/Home.js</code> and save to reload.
-          </p>
-          <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-            Learn React
-          </a>
+          
           {body}
         </header>
       </div>

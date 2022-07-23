@@ -9,7 +9,7 @@ import Profile from './components/Profile';
 import Home from './components/Home';
 import config from './components/config';
 import { OktaAuth, toRelativeUrl } from '@okta/okta-auth-js';
-import { Security, SecureRoute, LoginCallback } from '@okta/okta-react';
+import { Security, LoginCallback } from '@okta/okta-react';
 
 const oktaAuth = new OktaAuth(config.oidc);
 

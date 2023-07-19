@@ -1,0 +1,15 @@
+/* Style the header */
+.header {
+    background-color: #2196f3;
+    padding: 20px;
+    text-align: center;
+  }
+
+body {
+    background-color: white;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }

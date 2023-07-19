@@ -44,6 +44,10 @@ const navLinkItems = [
     link: './Pricing'
   },
   {
+    item: 'Privacy',
+    link: './Privacy'
+  },
+  {
     item: 'Features',
     link: './Features'
   },

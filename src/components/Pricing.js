@@ -3,7 +3,7 @@
     return (
       <div className='create'>
           <h2>
-              Pricing
+              Pricing 
           </h2>
           </div>
     )

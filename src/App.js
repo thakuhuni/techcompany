@@ -3,8 +3,10 @@ import {DrawerAppBar} from './components/Props';
 import {BrowserRouter as Router, Route, Switch, useHistory} from 'react-router-dom';
 import {Features} from './components/Features';
 import {Pricing} from './components/Pricing';
+import {Privacy} from './components/Privacy';
 import Login from './components/Login';
 import Profile from './components/Profile';
+
 
 import Home from './components/Home';
 import config from './components/config';
@@ -30,6 +32,9 @@ const App = () => {
       <Switch>
         <Route exact path="/">
         <Home/>
+        </Route> 
+        <Route  path="/Privacy">
+        <Privacy/>
         </Route>
         <Route  path="/Features">
         <Features/>
@@ -37,6 +42,7 @@ const App = () => {
         <Route  path="/Pricing">
         <Pricing/>
         </Route>
+      
         <Route path="/login/callback" component={LoginCallback}/>
         <Route path="/profile" component={Profile}/>
         <Route path="/Login">

@@ -37,7 +37,7 @@ const theme = createTheme({
 });
 
 const drawerWidth = 240;
-const navItems = ['Pricing', 'Features', 'Login'];
+const navItems = ['Pricing', 'Privacy', 'Features', 'Login', 'Register'];
 const navLinkItems = [
   {
     item: 'Pricing',
@@ -54,6 +54,10 @@ const navLinkItems = [
   {
     item: 'Login',
     link: './Login'
+  },
+  {
+    item: 'Register',
+    link: './Register'
   }
 ]
 

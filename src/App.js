@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Switch, useHistory} from 'react-router-d
 import {Features} from './components/Features';
 import {Pricing} from './components/Pricing';
 import {Privacy} from './components/Privacy';
+import { Register } from './components/Register';
 import Login from './components/Login';
 import Profile from './components/Profile';
 
@@ -49,6 +50,9 @@ const App = () => {
         <Login/>
         </Route>
         
+        <Route  path="/Register">
+        <Register/>
+        </Route>
        
       </Switch>
 

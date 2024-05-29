@@ -9,6 +9,7 @@ const Profile = () => {
   useEffect(() => {
     if (!authState || !authState.isAuthenticated) {
       // When user isn't authenticated, forget any user info
+      debugger;
       setUserInfo(null);
     } else {
       setUserInfo(authState.idToken.claims);
@@ -16,12 +17,16 @@ const Profile = () => {
       /*oktaAuth.getUser().then((info) => {
         setUserInfo(info);
       });*/
+      debugger;
     }
   }, [authState, oktaAuth]); // Update if authState changes
 
   if (!userInfo) {
+    debugger;
     return (
+      
       <div>
+        
         <p>Fetching user profile...</p>
       </div>
     );

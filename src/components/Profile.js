@@ -9,6 +9,7 @@ const Profile = () => {
   useEffect(() => {
     if (!authState || !authState.isAuthenticated) {
       // When user isn't authenticated, forget any user info
+      console.log("one...");
       debugger;
       setUserInfo(null);
     } else {
@@ -17,11 +18,13 @@ const Profile = () => {
       /*oktaAuth.getUser().then((info) => {
         setUserInfo(info);
       });*/
+      console.log("two...");
       debugger;
     }
   }, [authState, oktaAuth]); // Update if authState changes
 
   if (!userInfo) {
+    console.log("three...");
     debugger;
     return (
       
